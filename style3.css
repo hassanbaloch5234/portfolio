@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+.popin-text{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.line-right{
+    display: flex;
+    width: 100%;
+}
+
+/* .line-right::before, */
+.line-right::after {
+    display: inline-block;
+    content: "";
+    border-top: 1px solid rgba(55, 55, 55, 0.883);
+    width:100%;
+margin-top: 10px;
+    max-width: 200px;
+    margin-left: 10px;
+
+}
+.modal{
+    background-color: transparent;
+    font-family: 'Poppins', sans-serif;
+}
+.flex{
+display: flex;
+align-items: center;
+height: 20px;
+}
+.line{
+    width: 70%;
+    margin-bottom: 2px;
+}
+.text-bold{
+    font-weight: 600;
+}
+.radius-container{
+    padding:1rem 2rem;
+    border-radius: 2rem;
+    width: 100%;
+    height: 100%;
+}
+.icon-container{
+    display: flex;
+    flex-direction: column;
+    background-color:#FFF0F0;
+    width: 100%;
+    /* max-width: 70px;
+    max-height: 70px; */
+    /* height: 100%; */
+    border-radius:50%;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.sm-text{
+font-size: 0.8rem;
+margin-top: 6px;
+}
+.color-grey{
+    color: grey;
+}
+.lg-text{
+    font-size: 1rem;
+}
+.lg-pink{
+    color: #FF9595;
+    font-weight: 700;
+
+}
+.pink{
+    color: #FF9595;
+}
+
+.fixed-right{
+    
+}
+
+
+
+
+
+
+
+
+.modal-content
+{
+    background-color: transparent;
+    max-width: 450px;
+    align-items: center;
+    border: 0;
+}
+.hr-line::before,
+.hr-line::after {
+	content: "";
+	flex-grow: 1;
+	background: rgba(0, 0, 0, 0.35);
+	height: 1px;
+	font-size: 0px;
+	line-height: 0px;
+	margin: 0px 8px;
+    color: aquamarine;
+}
+.text-login{
+    color: black;
+    margin-top: 2rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+.text-center-header{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+
+}
+
+.color-white{
+    color: white;
+}
+.modal-header
+{background-color: #FF9595;
+height: 270px;
+align-items: flex-start;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+padding: 25px;
+width: 100%;
+max-width: 400px;
+
+justify-content: center;
+position: relative;
+}
+.text-dark{
+    color: black;
+}
+
+
+.log-div{
+    display: flex;
+    background-color: #FFF0F0;
+box-shadow: rgb(125, 121, 121) 2px 2px 12px 2px;
+align-items: center;
+    border-radius: 50px;
+    width: 60%;
+
+    margin-top: 122px;
+    z-index: 222;
+
+    justify-content: space-between;
+    position: absolute;
+}
+
+.log-div a{
+    text-decoration: none;
+    text-align: center;
+    margin-left: 1rem;
+    color: black;
+    
+
+}
+
+.pink-border{
+    border: 1px solid #FF9595;
+    border-radius: 50px;
+  
+}
+.bg-pink-btn
+
+{
+    background-color: #FF9595;
+    border-radius: 50px;
+    margin: 2px 4px;
+padding: 12px 30px;
+font-size: 13px;
+}
+
+.modal-body{
+    background-color: #FFF0F0;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+border-bottom-left-radius:30px ;
+border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+height: 100%;
+margin-top: -110px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 60px;
+padding-bottom: 10px;
+padding: 25px 35px;
+max-width:400px;text-align: left;
+width: 100%;
+
+
+
+}
+.modal-dialog{
+border-radius: 29px;
+background-color: transparent;
+border: none;
+
+
+}
+.input-password-container{
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    
+}
+.input-password{
+    border: 0;
+    background: none;
+    
+}
+.input-password:focus{
+    border: 0;
+    background: none;
+    outline: none;
+    border: none;
+
+}
+
+
+
+.input-radius{
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid grey;
+    padding: 13px 20px;
+}
+
+
+
+
+
+.btn-pink{
+    border-radius: 20px;
+    background-color: #FF9595;
+
+
+}.btn-pink:focus{
+    border-radius: 20px;
+    background-color: #FF9595;
+
+
+}
+
+
+
+.outline-google{
+  border: 1px solid grey;
+}
+.align-center{
+align-items: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+ 
+
+.modal-header
+{
+    
+    background-color: #FF9595;
+height: 250px;
+align-items: flex-start;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+padding: 20px;
+justify-content: center;
+position: relative;
+}
+.log-div{
+    display: flex;
+    background-color: #FFF0F0;
+box-shadow: rgb(125, 121, 121) 2px 2px 12px 2px;
+align-items: center;
+    border-radius: 50px;
+    width: 60%;
+
+    margin-top: 102px;
+    z-index: 222;
+
+    justify-content: space-between;
+    position: absolute;
+}
+
+.modal-body{
+    background-color: #FFF0F0;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+border-bottom-left-radius:30px ;
+border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+height: 80%;
+margin-top: -100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 10px;
+padding-bottom: 10px;
+padding: 30px 40px;
+
+
+
+
+}
+
+
+
+  }
+  @media only screen and (max-width: 400px) {
+.btn-outline-dark{
+font-size: 0.7rem;
+ 
+  
+
+}
+
+.log-div{
+    display: flex;
+    background-color: #FFF0F0;
+box-shadow: rgb(125, 121, 121) 2px 2px 12px 2px;
+align-items: center;
+    border-radius: 50px;
+    width: 70%;
+
+    margin-top: 110px;
+    z-index: 222;
+
+    justify-content: space-between;
+    position: absolute;
+}
+.bg-pink-btn
+
+{
+    background-color: #FF9595;
+    border-radius: 20px;
+    margin: 2px 4px;
+padding: 5px 30px;
+}
+
+.modal-body{
+    background-color: #FFF0F0;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+border-bottom-left-radius:30px ;
+border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+height: 80%;
+margin-top: -100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 10px;
+padding-bottom: 10px;
+padding: 30px 1px;
+
+
+
+
+}
+
+
+
+
+
+
+  }
+
+
+
+
+
+  @media only screen and (max-width: 352px) {
+
+
+
+.log-div{
+    font-size: 0.8rem;
+}
+
+.text-login{
+    margin: 10px 0px 10px 20px
+
+}
+
+.bg-pink-btn
+
+{
+    background-color: #FF9595;
+    border-radius: 20px;
+    margin: 2px 4px;
+padding: 5px 20px;
+}
+
+
+
+
+
+  }
+
+
